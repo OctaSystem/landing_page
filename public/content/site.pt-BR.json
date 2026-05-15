@@ -1,0 +1,52 @@
+{
+  "how_we_work": {
+    "title": "Analise, planejamento e escala",
+    "description": "O ponto de equilíbrio entre análise crítica, planejamento sólido e engenharia sem limites.",
+    "items": [
+      {
+        "title": "Análise",
+        "description": "Identificamos as necessidades reais do seu negócio para transformar ideias em requisitos técnicos precisos. Mergulhamos na sua visão para garantir que cada funcionalidade faça sentido estrategicamente, eliminando incertezas antes do início do desenvolvimento."
+      },
+      {
+        "title": "Planejamento",
+        "description": "Desenhamos a arquitetura ideal, selecionando a stack tecnológica mais eficiente para os seus objetivos. Planejamos a lógica de backend e a infraestrutura necessária para suportar um sistema seguro, performático e resiliente desde a sua fundação."
+      },
+      {
+        "title": "Escala",
+        "description": "Construímos sistemas preparados para o crescimento contínuo e alta disponibilidade que o projeto pede. Implementamos a engenharia necessária para permitir que o software suporte o volume de tráfego adequado sem perder a estabilidade ou exigir reescritas críticas no futuro."
+      }
+    ]
+  },
+  "services": {
+    "subtitle": "Soluções Tech Sob Medida",
+    "description": "Desenvolvemos desde ferramentas pontuais até sistemas completos para resolver suas demandas com máxima eficiência. Confira o que podemos fazer por você.",
+    "items": [
+      {
+        "title": "Sistemas Próprios e ERPs",
+        "description": "Projetamos plataformas robustas e sistemas de gestão (ERP) customizados para centralizar suas operações. Focamos em fluxos de trabalho eficientes e bancos de dados modelados para suportar o crescimento da sua empresa.",
+        "icon": "bx-data"
+      },
+      {
+        "title": "Landing Pages e Web Apps",
+        "description": "Criamos interfaces rápidas e Landing Pages de alta conversão. Unimos design moderno com uma arquitetura frontend leve para garantir que sua presença digital seja tão sólida quanto o seu negócio.",
+        "icon": "bx-layout"
+      },
+      {
+        "title": "APIs e Integrações",
+        "description": "Construímos camadas de integração seguras e APIs que conectam seus serviços com eficiência. Garantimos que a comunicação entre sistemas próprios ou terceiros seja fluida, estável e preparada para a escala do seu projeto.",
+        "icon": "bx-chip"
+      },
+      {
+        "title": "Modernização e Melhorias",
+        "description": "Evoluímos sistemas legados, otimizando o código e a infraestrutura para eliminar gargalos técnicos. Transformamos plataformas antigas em soluções modernizadas sem interromper a continuidade do seu negócio.",
+        "icon": "bx-layer"
+      },
+      {
+        "title": "Aplicativos Mobile",
+        "description": "Projetamos soluções Mobile com foco em alta performance e integração total ao seu ecossistema. Desenvolvemos aplicativos mobile que unem usabilidade intuitiva com a robustez necessária para escalar junto ao seu negócio.",
+        "icon": "bx-mobile-alt"
+      }
+    ]
+  }
+}
+

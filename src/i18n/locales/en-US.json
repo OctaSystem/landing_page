@@ -1,0 +1,24 @@
+{
+  "navbar": {
+    "services": "Services",
+    "how_we_work": "Our Process",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "title": "Solid Systems <muted>for</muted> <br/> <primary>Any Scale</primary>",
+    "description": "From the simplest systems to high-availability infrastructure, we design the logic that will support your application without creating technical bottlenecks. From building complex APIs to infrastructure management, we deliver clean code and resilient architecture.",
+    "contact_button": "Talk to us",
+    "services_button": "Our services"
+  },
+  "how_we_work": {
+    "section_title": "HOW WE WORK"
+  },
+  "tech_stack": {
+    "section_title": "We deliver the best tools in your project"
+  },
+  "services": {
+    "section_title": "WHAT WE DELIVER"
+  }
+}
+
+

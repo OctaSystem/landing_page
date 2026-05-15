@@ -1,0 +1,23 @@
+{
+  "navbar": {
+    "services": "Serviços",
+    "how_we_work": "Nosso Processo",
+    "contact": "Contate-nos"
+  },
+  "hero": {
+    "title": "Sistemas Sólidos <muted>para</muted> <primary>Qualquer Escala</primary>",
+    "description": "Dos sistemas mais simples à infraestrutura de alta disponibilidade, projetamos a lógica que sustentará sua aplicação sem criar gargalos técnicos. Da construção de APIs complexas à gestão de infraestrutura, entregamos código limpo e arquitetura resiliente.",
+    "contact_button": "Fale conosco",
+    "services_button": "Nossos serviços"
+  },
+  "how_we_work": {
+    "section_title": "COMO TRABALHAMOS"
+  },
+  "tech_stack": {
+    "section_title": "Entregamos as melhores ferramentas no seu projeto"
+  },
+  "services": {
+    "section_title": "O QUE ENTREGAMOS"
+  }
+}
+

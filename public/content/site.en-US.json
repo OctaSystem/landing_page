@@ -1,0 +1,23 @@
+{
+  "home": {
+    "hero": {
+      "title": "Solid Systems for Any Scale",
+      "subtitle": "Update this copy in production without shipping a new build.",
+      "primaryCta": "Contact us",
+      "secondaryCta": "Our services"
+    },
+    "services": {
+      "title": "Services",
+      "items": [
+        "Custom software",
+        "Infrastructure and cloud",
+        "Legacy modernization"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "email": "contact@octasystem.com"
+  }
+}
+
