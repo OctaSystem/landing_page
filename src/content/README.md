@@ -5,6 +5,7 @@ Este modulo permite editar textos em `public/content/*.json` sem gerar novo buil
 ## Arquivos
 
 - `public/content/content-manifest.json`: versao e mapa de locale -> arquivo JSON
+- `public/content/site.common.json`: conteudo comum entre idiomas
 - `public/content/site.pt-BR.json`: conteudo em portugues
 - `public/content/site.en-US.json`: conteudo em ingles
 - `src/content/contentClient.ts`: loader com cache em memoria + localStorage
@@ -46,9 +47,10 @@ export function HeroRemote() {
 
 ## Como atualizar em producao
 
-1. Edite o JSON desejado em `public/content/site.<locale>.json`
-2. Atualize o campo `version` de `public/content/content-manifest.json`
-3. Publique os arquivos estaticos no servidor/CDN
+1. Edite `public/content/site.common.json` para informacoes que nao mudam por idioma
+2. Edite o JSON do idioma em `public/content/site.<locale>.json`
+3. Atualize o campo `version` de `public/content/content-manifest.json`
+4. Publique os arquivos estaticos no servidor/CDN
 
 Ao mudar a `version`, o cache local e invalidado automaticamente.
 

@@ -18,35 +18,56 @@
     ]
   },
   "services": {
-    "subtitle": "Soluções Tech Sob Medida",
+    "title": "Soluções Tech Sob Medida",
     "description": "Desenvolvemos desde ferramentas pontuais até sistemas completos para resolver suas demandas com máxima eficiência. Confira o que podemos fazer por você.",
     "items": [
       {
         "title": "Sistemas Próprios e ERPs",
-        "description": "Projetamos plataformas robustas e sistemas de gestão (ERP) customizados para centralizar suas operações. Focamos em fluxos de trabalho eficientes e bancos de dados modelados para suportar o crescimento da sua empresa.",
-        "icon": "bx-data"
+        "description": "Projetamos plataformas robustas e sistemas de gestão (ERP) customizados para centralizar suas operações. Focamos em fluxos de trabalho eficientes e bancos de dados modelados para suportar o crescimento da sua empresa."
       },
       {
         "title": "Landing Pages e Web Apps",
-        "description": "Criamos interfaces rápidas e Landing Pages de alta conversão. Unimos design moderno com uma arquitetura frontend leve para garantir que sua presença digital seja tão sólida quanto o seu negócio.",
-        "icon": "bx-layout"
+        "description": "Criamos interfaces rápidas e Landing Pages de alta conversão. Unimos design moderno com uma arquitetura frontend leve para garantir que sua presença digital seja tão sólida quanto o seu negócio."
       },
       {
         "title": "APIs e Integrações",
-        "description": "Construímos camadas de integração seguras e APIs que conectam seus serviços com eficiência. Garantimos que a comunicação entre sistemas próprios ou terceiros seja fluida, estável e preparada para a escala do seu projeto.",
-        "icon": "bx-chip"
+        "description": "Construímos camadas de integração seguras e APIs que conectam seus serviços com eficiência. Garantimos que a comunicação entre sistemas próprios ou terceiros seja fluida, estável e preparada para a escala do seu projeto."
       },
       {
         "title": "Modernização e Melhorias",
-        "description": "Evoluímos sistemas legados, otimizando o código e a infraestrutura para eliminar gargalos técnicos. Transformamos plataformas antigas em soluções modernizadas sem interromper a continuidade do seu negócio.",
-        "icon": "bx-layer"
+        "description": "Evoluímos sistemas legados, otimizando o código e a infraestrutura para eliminar gargalos técnicos. Transformamos plataformas antigas em soluções modernizadas sem interromper a continuidade do seu negócio."
       },
       {
         "title": "Aplicativos Mobile",
-        "description": "Projetamos soluções Mobile com foco em alta performance e integração total ao seu ecossistema. Desenvolvemos aplicativos mobile que unem usabilidade intuitiva com a robustez necessária para escalar junto ao seu negócio.",
-        "icon": "bx-mobile-alt"
+        "description": "Projetamos soluções Mobile com foco em alta performance e integração total ao seu ecossistema. Desenvolvemos aplicativos mobile que unem usabilidade intuitiva com a robustez necessária para escalar junto ao seu negócio."
+      }
+    ]
+  },
+  "contact_us": {
+    "alternative_contact": [
+      {
+        "type": "email",
+        "icon": "bx-envelope",
+        "name": "Comercial - Henrique Castilho",
+        "email": "henrique_castilho@octasystem.com.br"
+      }
+    ],
+    "interest": [
+      {
+        "label": "Software Sob Medida"
+      },
+      {
+        "label": "Infraestrutura & Cloud"
+      },
+      {
+        "label": "Landing Page"
+      },
+      {
+        "label": "Modernização de Legado"
+      },
+      {
+        "label": "Aplicativo Mobile"
       }
     ]
   }
 }
-

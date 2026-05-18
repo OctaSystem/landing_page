@@ -1,10 +1,14 @@
 {
-  "version": "2026-05-15.1",
+  "version": "2026-05-17.1",
   "defaultLocale": "pt-BR",
-  "locales": ["pt-BR", "en-US"],
+  "locales": [
+    "pt-BR",
+    "en-US"
+  ],
   "files": {
     "pt-BR": "/content/site.pt-BR.json",
     "en-US": "/content/site.en-US.json"
-  }
+  },
+  "commonFile": "/content/site.common.json"
 }
 

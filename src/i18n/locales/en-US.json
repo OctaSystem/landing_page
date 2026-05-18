@@ -1,11 +1,14 @@
 {
+  "system": {
+    "dropdown_default_text": "Select an option"
+  },
   "navbar": {
     "services": "Services",
     "how_we_work": "Our Process",
     "contact": "Contact Us"
   },
   "hero": {
-    "title": "Solid Systems <muted>for</muted> <br/> <primary>Any Scale</primary>",
+    "title": "Solid Systems <muted>for</muted> <primary>Any Scale</primary>",
     "description": "From the simplest systems to high-availability infrastructure, we design the logic that will support your application without creating technical bottlenecks. From building complex APIs to infrastructure management, we deliver clean code and resilient architecture.",
     "contact_button": "Talk to us",
     "services_button": "Our services"
@@ -14,10 +17,61 @@
     "section_title": "HOW WE WORK"
   },
   "tech_stack": {
-    "section_title": "We deliver the best tools in your project"
+    "section_title": "We deliver the <primary>best tools</primary> in your project"
   },
   "services": {
-    "section_title": "WHAT WE DELIVER"
+    "section_title": "WHAT WE DELIVER",
+    "alert_message": "Since each project requires a unique technical scope, our pricing is customized upon request."
+  },
+  "contact_us": {
+    "go_back": "Back to home",
+    "form": {
+      "title": "Contact us",
+      "your_name": {
+        "label": "Your name",
+        "placeholder": "Enter your name or company name",
+        "error": "Please enter your name"
+      },
+      "your_cnpj": {
+        "label": "Your CNPJ",
+        "placeholder": "Enter your CNPJ"
+      },
+      "your_email": {
+        "label": "Your email",
+        "placeholder": "Enter a contact email",
+        "error": "Please enter a valid email"
+      },
+      "your_interest": {
+        "label": "Project interest",
+        "placeholder": "Select an interest",
+        "error": "Please select an interest"
+      },
+      "your_demand": {
+        "label": "Explain your demand",
+        "placeholder": "Detail your technical requirements..."
+      },
+      "submit_button": "Send"
+    },
+    "alternative_contact": {
+      "title": "Alternative Contact"
+    },
+    "toast": {
+      "validation_error": {
+        "title": "Review the fields",
+        "description": "Fill in the required fields."
+      },
+      "error": {
+        "title": "Error while sending",
+        "description": "An error occurred while sending your message. Please try again later."
+      },
+      "success": {
+        "title": "Message prepared",
+        "description": "We received your request and the sales team will be in touch soon."
+      }
+    }
+  },
+  "footer": {
+    "contact_us": "Contact us"
   }
 }
 

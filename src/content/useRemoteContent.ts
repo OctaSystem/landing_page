@@ -1,65 +1,60 @@
-import { useEffect, useMemo, useState } from 'react';
-import { useTranslation } from 'react-i18next';
-
-import { getContentByPath, getRemoteContent } from './contentClient';
-import type { JsonObject, JsonValue } from './types';
+import {useEffect, useState} from 'react';
+import {useTranslation} from 'react-i18next';
+import type {JsonObject, JsonValue} from './types';
+import {getContentByPath, getRemoteContent} from "./contentClient.ts";
 
 type RemoteContentState<T extends JsonValue> = {
-  data: T;
-  isLoading: boolean;
-  error: Error | null;
+    data: T;
+    isLoading: boolean;
+    error: Error | null;
 };
 
-export function useRemoteContent<T extends JsonValue>(
-  path: string,
-  fallbackData: T,
-): RemoteContentState<T> {
-  const { i18n } = useTranslation();
-  const locale = useMemo(
-    () => i18n.resolvedLanguage ?? i18n.language ?? 'pt-BR',
-    [i18n.language, i18n.resolvedLanguage],
-  );
-
-  const [state, setState] = useState<RemoteContentState<T>>({
-    data: fallbackData,
-    isLoading: true,
-    error: null,
-  });
-
-  useEffect(() => {
-    let isMounted = true;
-
-    async function load() {
-      try {
-        const content = await getRemoteContent(locale);
+async function load<T extends JsonValue>(
+    language: string,
+    path: string,
+    fallbackData: T,
+    stateUpdate: (state: RemoteContentState<T>) => void
+): Promise<void> {
+    try {
+        const content = await getRemoteContent(language);
         const resolvedData = getContentByPath<T>(content as JsonObject, path) ?? fallbackData;
 
-        if (isMounted) {
-          setState({
+        stateUpdate({
             data: resolvedData,
             isLoading: false,
             error: null,
-          });
-        }
-      } catch (error) {
-        if (isMounted) {
-          setState({
+        });
+    } catch (error) {
+        stateUpdate({
             data: fallbackData,
             isLoading: false,
             error: error instanceof Error ? error : new Error('Failed to load content'),
-          });
-        }
-      }
+        });
     }
+}
 
-    load();
 
-    return () => {
-      isMounted = false;
-    };
-  }, [fallbackData, locale, path]);
+export function useRemoteContent<T extends JsonValue>(
+    path: string,
+    fallbackData: T,
+): RemoteContentState<T> {
+    const {i18n} = useTranslation();
 
-  return state;
+    const [state, setState] = useState<RemoteContentState<T>>({
+        data: fallbackData,
+        isLoading: true,
+        error: null,
+    });
+
+    useEffect(() => {
+        i18n.on('languageChanged', async (lng) => await load(lng, path, fallbackData, setState));
+    }, [fallbackData, i18n, path]);
+
+    useEffect(() => {
+        load(i18n.language, path, fallbackData, setState).then(r => r);
+    }, []);
+
+    return state;
 }
 
 

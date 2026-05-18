@@ -1,23 +1,74 @@
 {
-  "home": {
-    "hero": {
-      "title": "Solid Systems for Any Scale",
-      "subtitle": "Update this copy in production without shipping a new build.",
-      "primaryCta": "Contact us",
-      "secondaryCta": "Our services"
-    },
-    "services": {
-      "title": "Services",
-      "items": [
-        "Custom software",
-        "Infrastructure and cloud",
-        "Legacy modernization"
-      ]
-    }
+  "how_we_work": {
+    "title": "Analysis, planning, and scale",
+    "description": "The balance point between critical analysis, solid planning, and limitless engineering.",
+    "items": [
+      {
+        "title": "Analysis",
+        "description": "We identify your business's real needs to turn ideas into precise technical requirements. We dive into your vision to ensure every feature makes strategic sense, eliminating uncertainty before development begins."
+      },
+      {
+        "title": "Planning",
+        "description": "We design the ideal architecture, selecting the most efficient tech stack for your goals. We plan backend logic and the infrastructure needed to support a secure, high-performance, and resilient system from day one."
+      },
+      {
+        "title": "Scale",
+        "description": "We build systems ready for the continuous growth and high availability your project demands. We implement the engineering needed for your software to handle the right traffic volume without losing stability or requiring critical rewrites in the future."
+      }
+    ]
   },
-  "contact": {
-    "title": "Contact Us",
-    "email": "contact@octasystem.com"
+  "services": {
+    "title": "Tailored Tech Solutions",
+    "description": "We develop everything from focused tools to complete systems to solve your needs with maximum efficiency. See what we can do for you.",
+    "items": [
+      {
+        "title": "Custom Systems and ERPs",
+        "description": "We design robust platforms and custom enterprise management systems (ERP) to centralize your operations. We focus on efficient workflows and database models built to support your company's growth."
+      },
+      {
+        "title": "Landing Pages and Web Apps",
+        "description": "We create fast interfaces and high-converting landing pages. We combine modern design with a lightweight frontend architecture to ensure your digital presence is as solid as your business."
+      },
+      {
+        "title": "APIs and Integrations",
+        "description": "We build secure integration layers and APIs that connect your services efficiently. We ensure communication between in-house and third-party systems is smooth, stable, and ready for your project's scale."
+      },
+      {
+        "title": "Modernization and Improvements",
+        "description": "We evolve legacy systems by optimizing code and infrastructure to remove technical bottlenecks. We transform outdated platforms into modernized solutions without interrupting business continuity."
+      },
+      {
+        "title": "Mobile Apps",
+        "description": "We design mobile solutions focused on high performance and full integration with your ecosystem. We develop mobile apps that combine intuitive usability with the robustness required to scale alongside your business."
+      }
+    ]
+  },
+  "contact_us": {
+    "alternative_contact": [
+      {
+        "type": "email",
+        "icon": "bx-envelope",
+        "name": "Sales - Henrique Castilho",
+        "email": "henrique_castilho@octasystem.com.br"
+      }
+    ],
+    "interest": [
+      {
+        "label": "Custom Software"
+      },
+      {
+        "label": "Infrastructure & Cloud"
+      },
+      {
+        "label": "Landing Page"
+      },
+      {
+        "label": "Legacy Modernization"
+      },
+      {
+        "label": "Mobile App"
+      }
+    ]
   }
 }
 

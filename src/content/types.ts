@@ -15,5 +15,6 @@ export type ContentManifest = {
   defaultLocale: string;
   locales: string[];
   files: Record<string, string>;
+  commonFile?: string;
 };
 

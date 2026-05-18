@@ -1,0 +1,43 @@
+{
+  "company_info": {
+    "CNPJ": "42.017.993/0001-54"
+  },
+  "services": {
+    "items": [
+      {
+        "icon": "bx-data"
+      },
+      {
+        "icon": "bx-layout"
+      },
+      {
+        "icon": "bx-chip"
+      },
+      {
+        "icon": "bx-layer"
+      },
+      {
+        "icon": "bx-mobile-alt"
+      }
+    ]
+  },
+  "contact_us": {
+    "interest": [
+      {
+        "id": "Sob Medida"
+      },
+      {
+        "id": "Infra & Cloud"
+      },
+      {
+        "id": "Divulgação"
+      },
+      {
+        "id": "Sistema Legado"
+      },
+      {
+        "id": "App"
+      }
+    ]
+  }
+}

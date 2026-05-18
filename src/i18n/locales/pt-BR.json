@@ -1,4 +1,7 @@
 {
+  "system": {
+    "dropdown_default_text": "Selecione uma opção"
+  },
   "navbar": {
     "services": "Serviços",
     "how_we_work": "Nosso Processo",
@@ -14,10 +17,61 @@
     "section_title": "COMO TRABALHAMOS"
   },
   "tech_stack": {
-    "section_title": "Entregamos as melhores ferramentas no seu projeto"
+    "section_title": "Entregamos as <primary>melhores ferramentas</primary> no seu projeto"
   },
   "services": {
-    "section_title": "O QUE ENTREGAMOS"
+    "section_title": "O QUE ENTREGAMOS",
+    "alert_message": "Como cada projeto exige um escopo técnico único, nossos valores são personalizados sob consulta."
+  },
+  "contact_us": {
+    "go_back": "Voltar o início",
+    "form": {
+      "title": "Fale conosco",
+      "your_name": {
+        "label": "Seu nome",
+        "placeholder": "Insira seu nome ou o nome sua empresa",
+        "error": "Por favor, insira seu nome"
+      },
+      "your_cnpj": {
+        "label": "Seu CNPJ",
+        "placeholder": "Insira o seu CNPJ"
+      },
+      "your_email": {
+        "label": "Seu email",
+        "placeholder": "Insira um email para contato",
+        "error": "Por favor, insira um email válido"
+      },
+      "your_interest": {
+        "label": "Interesse do projeto",
+        "placeholder": "Selecione um interesse",
+        "error": "Por favor, selecione um interesse"
+      },
+      "your_demand": {
+        "label": "Explique sua demanda",
+        "placeholder": "Detalhe seus requisitos técnicos..."
+      },
+      "submit_button": "Enviar"
+    },
+    "alternative_contact": {
+      "title": "Contato Alternativo"
+    },
+    "toast": {
+      "validation_error": {
+        "title": "Revise os campos",
+        "description": "Preencha os campos obrigatórios."
+      },
+      "error": {
+        "title": "Erro ao enviar",
+        "description": "Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente mais tarde."
+      },
+      "success": {
+        "title": "Mensagem preparada",
+        "description": "Recebemos sua solicitação e a equipe comercial entrará em contato em breve."
+      }
+    }
+  },
+  "footer": {
+    "contact_us": "Contate-nos"
   }
 }
 

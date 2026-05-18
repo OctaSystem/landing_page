@@ -24,7 +24,7 @@ export default function Navbar() {
                 <div className="hidden md:flex items-center gap-10">
                     <a href="/#services"
                        className="text-sm font-medium text-slate hover:text-white transition-colors">{t('navbar.services')}</a>
-                    <a href="/#processo"
+                    <a href="/#how_we_work"
                        className="text-sm font-medium text-slate hover:text-white transition-colors">{t('navbar.how_we_work')}</a>
                     <Link to="/contact"
                           className="text-sm font-medium text-slate hover:text-white transition-colors">{t('navbar.contact')}</Link>
@@ -50,9 +50,9 @@ export default function Navbar() {
                     animate={{opacity: 1, y: 0}}
                     className="md:hidden absolute top-20 left-0 right-0 bg-surface border-b border-white/10 p-6 flex flex-col gap-6"
                 >
-                    <a href="/#servicos" className="text-lg font-medium"
+                    <a href="/#services" className="text-lg font-medium"
                        onClick={() => setIsOpen(false)}>{t('navbar.services')}</a>
-                    <a href="/#processo" className="text-lg font-medium"
+                    <a href="/#how_we_work" className="text-lg font-medium"
                        onClick={() => setIsOpen(false)}>{t('navbar.how_we_work')}</a>
                     <Link to="/contact" className="text-lg font-medium"
                           onClick={() => setIsOpen(false)}>{t('navbar.contact')}</Link>
