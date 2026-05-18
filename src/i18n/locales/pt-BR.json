@@ -24,12 +24,12 @@
     "alert_message": "Como cada projeto exige um escopo técnico único, nossos valores são personalizados sob consulta."
   },
   "contact_us": {
-    "go_back": "Voltar o início",
+    "go_back": "Voltar ao início",
     "form": {
       "title": "Fale conosco",
       "your_name": {
         "label": "Seu nome",
-        "placeholder": "Insira seu nome ou o nome sua empresa",
+        "placeholder": "Insira seu nome ou o nome da sua empresa",
         "error": "Por favor, insira seu nome"
       },
       "your_cnpj": {
